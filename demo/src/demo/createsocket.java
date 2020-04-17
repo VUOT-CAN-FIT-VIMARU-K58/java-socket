@@ -23,6 +23,8 @@ public class createsocket {
 			DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
 			DataInputStream inputStream = new DataInputStream(socket.getInputStream());
 			
+			System.out.println(socket.getInetAddress().getHostAddress().toString());
+			//In ra ip socket
 			//Scanner scanner = new Scanner(System.in);//đọc dữ liệu trên bàn phím nhập vào
 			String string,string2;
 			while(true) {
